@@ -11,6 +11,7 @@ public class Aluguel extends JFrame {
     private void preparatelaJFormattedTextField() {
         Container janela = getContentPane();
         janela.setLayout(null);
+        setTitle("Aluguel de veiculos");
 
         JLabel labelDadosdocliente = new JLabel("Dados do Cliente");
         JLabel labelNomeCl = new JLabel("Nome" );
